@@ -11,7 +11,7 @@ player = WavPlayer.new
 
 spy.listen do |key|
 	case key
-	when ' '
+	when 's'
 		logger.info "playing random wav"
 		player.play_random_wav
 		logger.info "done playing random wav"
