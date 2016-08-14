@@ -9,6 +9,9 @@ spy = KeyboardSpy.new
 
 player = WavPlayer.new
 
+logger.info "cartbot booted"
+player.play_boot_wav
+
 spy.listen do |key|
 	case key
 	when 's'

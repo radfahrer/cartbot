@@ -17,8 +17,4 @@ class WavPlayer
 		random_file_path = File.join wav_directory, random_file
 		`#{wav_program} #{random_file_path}`
 	end
-	def play_boot_wav
-		boot_wav_file = File.join wav_directory, 'system', 'boot.wav'
-		`#{wav_program} #{boot_wav_file}`
-	end
 end

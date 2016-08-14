@@ -1,0 +1,13 @@
+Style/Tab:
+  Enabled: false
+Style/IndentationWidth:
+  Enabled: false
+Style/IndentHash:
+  Enabled: false
+Style/IndentArray:
+  Enabled: false
+Style/HashSyntax:
+  Enabled: false
+# missbehaving in atom-linter for some reason
+Style/FileName:
+  Enabled: false
